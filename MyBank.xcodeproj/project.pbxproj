@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEA7988A1BE9A62E0079963D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA798891BE9A62E0079963D /* AppDelegate.swift */; };
+		CEA7988C1BE9A62E0079963D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7988B1BE9A62E0079963D /* ViewController.swift */; };
+		CEA7988F1BE9A62E0079963D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA7988D1BE9A62E0079963D /* Main.storyboard */; };
+		CEA798911BE9A62E0079963D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA798901BE9A62E0079963D /* Assets.xcassets */; };
+		CEA798941BE9A62E0079963D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA798921BE9A62E0079963D /* LaunchScreen.storyboard */; };
+		CEA7989F1BE9A62E0079963D /* MyBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7989E1BE9A62E0079963D /* MyBankTests.swift */; };
+		CEA798AA1BE9A62F0079963D /* MyBankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA798A91BE9A62F0079963D /* MyBankUITests.swift */; };
+		CEA798B81BE9A6D20079963D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798B71BE9A6D20079963D /* Social.framework */; };
+		CEA798BA1BE9A6E00079963D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798B91BE9A6E00079963D /* Accounts.framework */; };
+		CEA798BC1BE9A6F40079963D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798BB1BE9A6F40079963D /* SystemConfiguration.framework */; };
+		CEA798BE1BE9A6FC0079963D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798BD1BE9A6FC0079963D /* StoreKit.framework */; };
+		CEA798C01BE9A7080079963D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798BF1BE9A7080079963D /* Security.framework */; };
+		CEA798C21BE9A7120079963D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798C11BE9A7120079963D /* QuartzCore.framework */; };
+		CEA798C41BE9A71B0079963D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798C31BE9A71B0079963D /* MobileCoreServices.framework */; };
+		CEA798C61BE9A72A0079963D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798C51BE9A72A0079963D /* libz.tbd */; };
+		CEA798C81BE9A7410079963D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798C71BE9A7410079963D /* CoreLocation.framework */; };
+		CEA798CA1BE9A7510079963D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798C91BE9A7510079963D /* CoreGraphics.framework */; };
+		CEA798CC1BE9A75B0079963D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798CB1BE9A75B0079963D /* CFNetwork.framework */; };
+		CEA798CE1BE9A7660079963D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798CD1BE9A7660079963D /* AudioToolbox.framework */; };
+		CEA798D71BE9A7E80079963D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798D01BE9A7E80079963D /* Bolts.framework */; settings = {ASSET_TAGS = (); }; };
+		CEA798D81BE9A7E80079963D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798D11BE9A7E80079963D /* Parse.framework */; settings = {ASSET_TAGS = (); }; };
+		CEA798D91BE9A7E80079963D /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798D21BE9A7E80079963D /* ParseCrashReporting.framework */; settings = {ASSET_TAGS = (); }; };
+		CEA798DA1BE9A7E80079963D /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798D31BE9A7E80079963D /* ParseFacebookUtils.framework */; settings = {ASSET_TAGS = (); }; };
+		CEA798DB1BE9A7E80079963D /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798D41BE9A7E80079963D /* ParseFacebookUtilsV4.framework */; settings = {ASSET_TAGS = (); }; };
+		CEA798DC1BE9A7E80079963D /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798D51BE9A7E80079963D /* ParseTwitterUtils.framework */; settings = {ASSET_TAGS = (); }; };
+		CEA798DD1BE9A7E80079963D /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA798D61BE9A7E80079963D /* ParseUI.framework */; settings = {ASSET_TAGS = (); }; };
+		CEA798E01BE9A8620079963D /* Bridingheader.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA798DF1BE9A8620079963D /* Bridingheader.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA7989B1BE9A62E0079963D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA7987E1BE9A62E0079963D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA798851BE9A62E0079963D;
+			remoteInfo = MyBank;
+		};
+		CEA798A61BE9A62F0079963D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA7987E1BE9A62E0079963D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA798851BE9A62E0079963D;
+			remoteInfo = MyBank;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEA798861BE9A62E0079963D /* MyBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA798891BE9A62E0079963D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEA7988B1BE9A62E0079963D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEA7988E1BE9A62E0079963D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEA798901BE9A62E0079963D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEA798931BE9A62E0079963D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEA798951BE9A62E0079963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA7989A1BE9A62E0079963D /* MyBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA7989E1BE9A62E0079963D /* MyBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBankTests.swift; sourceTree = "<group>"; };
+		CEA798A01BE9A62F0079963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA798A51BE9A62F0079963D /* MyBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA798A91BE9A62F0079963D /* MyBankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBankUITests.swift; sourceTree = "<group>"; };
+		CEA798AB1BE9A62F0079963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA798B71BE9A6D20079963D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CEA798B91BE9A6E00079963D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CEA798BB1BE9A6F40079963D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CEA798BD1BE9A6FC0079963D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CEA798BF1BE9A7080079963D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CEA798C11BE9A7120079963D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CEA798C31BE9A71B0079963D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CEA798C51BE9A72A0079963D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CEA798C71BE9A7410079963D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CEA798C91BE9A7510079963D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEA798CB1BE9A75B0079963D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CEA798CD1BE9A7660079963D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CEA798D01BE9A7E80079963D /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CEA798D11BE9A7E80079963D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CEA798D21BE9A7E80079963D /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		CEA798D31BE9A7E80079963D /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		CEA798D41BE9A7E80079963D /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		CEA798D51BE9A7E80079963D /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		CEA798D61BE9A7E80079963D /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		CEA798DE1BE9A8610079963D /* MyBank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyBank-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEA798DF1BE9A8620079963D /* Bridingheader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bridingheader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA798831BE9A62E0079963D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA798CE1BE9A7660079963D /* AudioToolbox.framework in Frameworks */,
+				CEA798D91BE9A7E80079963D /* ParseCrashReporting.framework in Frameworks */,
+				CEA798CC1BE9A75B0079963D /* CFNetwork.framework in Frameworks */,
+				CEA798CA1BE9A7510079963D /* CoreGraphics.framework in Frameworks */,
+				CEA798DC1BE9A7E80079963D /* ParseTwitterUtils.framework in Frameworks */,
+				CEA798C81BE9A7410079963D /* CoreLocation.framework in Frameworks */,
+				CEA798C61BE9A72A0079963D /* libz.tbd in Frameworks */,
+				CEA798C41BE9A71B0079963D /* MobileCoreServices.framework in Frameworks */,
+				CEA798C21BE9A7120079963D /* QuartzCore.framework in Frameworks */,
+				CEA798D71BE9A7E80079963D /* Bolts.framework in Frameworks */,
+				CEA798DD1BE9A7E80079963D /* ParseUI.framework in Frameworks */,
+				CEA798C01BE9A7080079963D /* Security.framework in Frameworks */,
+				CEA798BE1BE9A6FC0079963D /* StoreKit.framework in Frameworks */,
+				CEA798D81BE9A7E80079963D /* Parse.framework in Frameworks */,
+				CEA798BC1BE9A6F40079963D /* SystemConfiguration.framework in Frameworks */,
+				CEA798BA1BE9A6E00079963D /* Accounts.framework in Frameworks */,
+				CEA798DB1BE9A7E80079963D /* ParseFacebookUtilsV4.framework in Frameworks */,
+				CEA798DA1BE9A7E80079963D /* ParseFacebookUtils.framework in Frameworks */,
+				CEA798B81BE9A6D20079963D /* Social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA798971BE9A62E0079963D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA798A21BE9A62F0079963D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA7987D1BE9A62E0079963D = {
+			isa = PBXGroup;
+			children = (
+				CEA798CD1BE9A7660079963D /* AudioToolbox.framework */,
+				CEA798CB1BE9A75B0079963D /* CFNetwork.framework */,
+				CEA798C91BE9A7510079963D /* CoreGraphics.framework */,
+				CEA798C71BE9A7410079963D /* CoreLocation.framework */,
+				CEA798C51BE9A72A0079963D /* libz.tbd */,
+				CEA798C31BE9A71B0079963D /* MobileCoreServices.framework */,
+				CEA798C11BE9A7120079963D /* QuartzCore.framework */,
+				CEA798BF1BE9A7080079963D /* Security.framework */,
+				CEA798BD1BE9A6FC0079963D /* StoreKit.framework */,
+				CEA798BB1BE9A6F40079963D /* SystemConfiguration.framework */,
+				CEA798B91BE9A6E00079963D /* Accounts.framework */,
+				CEA798B71BE9A6D20079963D /* Social.framework */,
+				CEA798881BE9A62E0079963D /* MyBank */,
+				CEA7989D1BE9A62E0079963D /* MyBankTests */,
+				CEA798A81BE9A62F0079963D /* MyBankUITests */,
+				CEA798871BE9A62E0079963D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA798871BE9A62E0079963D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA798861BE9A62E0079963D /* MyBank.app */,
+				CEA7989A1BE9A62E0079963D /* MyBankTests.xctest */,
+				CEA798A51BE9A62F0079963D /* MyBankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA798881BE9A62E0079963D /* MyBank */ = {
+			isa = PBXGroup;
+			children = (
+				CEA798CF1BE9A7E80079963D /* parse-library-1.9.1 */,
+				CEA798891BE9A62E0079963D /* AppDelegate.swift */,
+				CEA7988B1BE9A62E0079963D /* ViewController.swift */,
+				CEA7988D1BE9A62E0079963D /* Main.storyboard */,
+				CEA798901BE9A62E0079963D /* Assets.xcassets */,
+				CEA798921BE9A62E0079963D /* LaunchScreen.storyboard */,
+				CEA798951BE9A62E0079963D /* Info.plist */,
+				CEA798DF1BE9A8620079963D /* Bridingheader.m */,
+				CEA798DE1BE9A8610079963D /* MyBank-Bridging-Header.h */,
+			);
+			path = MyBank;
+			sourceTree = "<group>";
+		};
+		CEA7989D1BE9A62E0079963D /* MyBankTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA7989E1BE9A62E0079963D /* MyBankTests.swift */,
+				CEA798A01BE9A62F0079963D /* Info.plist */,
+			);
+			path = MyBankTests;
+			sourceTree = "<group>";
+		};
+		CEA798A81BE9A62F0079963D /* MyBankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA798A91BE9A62F0079963D /* MyBankUITests.swift */,
+				CEA798AB1BE9A62F0079963D /* Info.plist */,
+			);
+			path = MyBankUITests;
+			sourceTree = "<group>";
+		};
+		CEA798CF1BE9A7E80079963D /* parse-library-1.9.1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEA798D01BE9A7E80079963D /* Bolts.framework */,
+				CEA798D11BE9A7E80079963D /* Parse.framework */,
+				CEA798D21BE9A7E80079963D /* ParseCrashReporting.framework */,
+				CEA798D31BE9A7E80079963D /* ParseFacebookUtils.framework */,
+				CEA798D41BE9A7E80079963D /* ParseFacebookUtilsV4.framework */,
+				CEA798D51BE9A7E80079963D /* ParseTwitterUtils.framework */,
+				CEA798D61BE9A7E80079963D /* ParseUI.framework */,
+			);
+			path = "parse-library-1.9.1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA798851BE9A62E0079963D /* MyBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA798AE1BE9A62F0079963D /* Build configuration list for PBXNativeTarget "MyBank" */;
+			buildPhases = (
+				CEA798821BE9A62E0079963D /* Sources */,
+				CEA798831BE9A62E0079963D /* Frameworks */,
+				CEA798841BE9A62E0079963D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBank;
+			productName = MyBank;
+			productReference = CEA798861BE9A62E0079963D /* MyBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA798991BE9A62E0079963D /* MyBankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA798B11BE9A62F0079963D /* Build configuration list for PBXNativeTarget "MyBankTests" */;
+			buildPhases = (
+				CEA798961BE9A62E0079963D /* Sources */,
+				CEA798971BE9A62E0079963D /* Frameworks */,
+				CEA798981BE9A62E0079963D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA7989C1BE9A62E0079963D /* PBXTargetDependency */,
+			);
+			name = MyBankTests;
+			productName = MyBankTests;
+			productReference = CEA7989A1BE9A62E0079963D /* MyBankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEA798A41BE9A62F0079963D /* MyBankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA798B41BE9A62F0079963D /* Build configuration list for PBXNativeTarget "MyBankUITests" */;
+			buildPhases = (
+				CEA798A11BE9A62F0079963D /* Sources */,
+				CEA798A21BE9A62F0079963D /* Frameworks */,
+				CEA798A31BE9A62F0079963D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA798A71BE9A62F0079963D /* PBXTargetDependency */,
+			);
+			name = MyBankUITests;
+			productName = MyBankUITests;
+			productReference = CEA798A51BE9A62F0079963D /* MyBankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA7987E1BE9A62E0079963D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Abass Sesay";
+				TargetAttributes = {
+					CEA798851BE9A62E0079963D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					CEA798991BE9A62E0079963D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CEA798851BE9A62E0079963D;
+					};
+					CEA798A41BE9A62F0079963D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = CEA798851BE9A62E0079963D;
+					};
+				};
+			};
+			buildConfigurationList = CEA798811BE9A62E0079963D /* Build configuration list for PBXProject "MyBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA7987D1BE9A62E0079963D;
+			productRefGroup = CEA798871BE9A62E0079963D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA798851BE9A62E0079963D /* MyBank */,
+				CEA798991BE9A62E0079963D /* MyBankTests */,
+				CEA798A41BE9A62F0079963D /* MyBankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA798841BE9A62E0079963D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA798941BE9A62E0079963D /* LaunchScreen.storyboard in Resources */,
+				CEA798911BE9A62E0079963D /* Assets.xcassets in Resources */,
+				CEA7988F1BE9A62E0079963D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA798981BE9A62E0079963D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA798A31BE9A62F0079963D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA798821BE9A62E0079963D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA7988C1BE9A62E0079963D /* ViewController.swift in Sources */,
+				CEA7988A1BE9A62E0079963D /* AppDelegate.swift in Sources */,
+				CEA798E01BE9A8620079963D /* Bridingheader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA798961BE9A62E0079963D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA7989F1BE9A62E0079963D /* MyBankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA798A11BE9A62F0079963D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA798AA1BE9A62F0079963D /* MyBankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA7989C1BE9A62E0079963D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA798851BE9A62E0079963D /* MyBank */;
+			targetProxy = CEA7989B1BE9A62E0079963D /* PBXContainerItemProxy */;
+		};
+		CEA798A71BE9A62F0079963D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA798851BE9A62E0079963D /* MyBank */;
+			targetProxy = CEA798A61BE9A62F0079963D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA7988D1BE9A62E0079963D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA7988E1BE9A62E0079963D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA798921BE9A62E0079963D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA798931BE9A62E0079963D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA798AC1BE9A62F0079963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA798AD1BE9A62F0079963D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA798AF1BE9A62F0079963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyBank/parse-library-1.9.1",
+				);
+				INFOPLIST_FILE = MyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discoversalone.MyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyBank/MyBank-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEA798B01BE9A62F0079963D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyBank/parse-library-1.9.1",
+				);
+				INFOPLIST_FILE = MyBank/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discoversalone.MyBank;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyBank/MyBank-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CEA798B21BE9A62F0079963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discoversalone.MyBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBank.app/MyBank";
+			};
+			name = Debug;
+		};
+		CEA798B31BE9A62F0079963D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyBankTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discoversalone.MyBankTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBank.app/MyBank";
+			};
+			name = Release;
+		};
+		CEA798B51BE9A62F0079963D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discoversalone.MyBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyBank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CEA798B61BE9A62F0079963D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyBankUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.discoversalone.MyBankUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyBank;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA798811BE9A62E0079963D /* Build configuration list for PBXProject "MyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA798AC1BE9A62F0079963D /* Debug */,
+				CEA798AD1BE9A62F0079963D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA798AE1BE9A62F0079963D /* Build configuration list for PBXNativeTarget "MyBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA798AF1BE9A62F0079963D /* Debug */,
+				CEA798B01BE9A62F0079963D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA798B11BE9A62F0079963D /* Build configuration list for PBXNativeTarget "MyBankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA798B21BE9A62F0079963D /* Debug */,
+				CEA798B31BE9A62F0079963D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEA798B41BE9A62F0079963D /* Build configuration list for PBXNativeTarget "MyBankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA798B51BE9A62F0079963D /* Debug */,
+				CEA798B61BE9A62F0079963D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA7987E1BE9A62E0079963D /* Project object */;
+}
